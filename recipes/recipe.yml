@@ -27,6 +27,9 @@ modules:
       - kernel-cachyos-lto-devel-matched
       - zenpower3
       - zenmonitor3
+      - akmod-nvidia
+      - xorg-x11-drv-nvidia
+      - xorg-x11-drv-nvidia-cuda
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
