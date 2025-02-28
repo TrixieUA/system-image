@@ -22,12 +22,21 @@ modules:
     - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-%OS_VERSION%.noarch.rpm
   - type: rpm-ostree
     repos:
-      - https://copr.fedorainfracloud.org/coprs/shdwchn10/zenpower3/repo/fedora-%OS_VERSION%/shdwchn10-zenpower3-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos-lto/repo/fedora-%OS_VERSION%/bieszczaders-kernel-cachyos-lto-fedora-%OS_VERSION%.repo
     install:
-      - ncdu
       - kernel-cachyos-lto
       - kernel-cachyos-lto-devel-matched
+    remove:
+      - kernel-core
+      - kernel
+      - kernel-modules
+      - kernel-modules-core
+      - kernel-modules-extra
+  - type: rpm-ostree
+    repos:
+      - https://copr.fedorainfracloud.org/coprs/shdwchn10/zenpower3/repo/fedora-%OS_VERSION%/shdwchn10-zenpower3-fedora-%OS_VERSION%.repo
+    install:
+      - ncdu
       - zenpower3
       - zenmonitor3
       - akmod-nvidia
@@ -38,11 +47,6 @@ modules:
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       - firefox
       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
-      - kernel-core
-      - kernel
-      - kernel-modules
-      - kernel-modules-core
-      - kernel-modules-extra
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
