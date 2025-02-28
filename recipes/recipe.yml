@@ -24,7 +24,7 @@ modules:
     install:
       - ncdu
       - kernel-cachyos-lto
-      - kernel-cachyos-devel-matched
+      - kernel-cachyos-lto-devel-matched
       - zenpower3
       - zenmonitor3
     remove:
