@@ -37,6 +37,7 @@ modules:
     install:
       - kernel-cachyos-lto
       - kernel-cachyos-lto-devel-matched
+      - kernel-headers-6.13.0-62.fc42.x86_64
     remove:
       - kernel-core
       - kernel
