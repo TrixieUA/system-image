@@ -69,6 +69,7 @@ modules:
       - xeyes
       - zenmonitor3
       - zsh
+      - https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v0.6.5.1/opentabletdriver-0.6.5.1-1.x86_64.rpm
 
       
     remove:
