@@ -45,6 +45,8 @@ modules:
       - kernel-modules-core
       - kernel-modules-extra
   - type: rpm-ostree
+    optfix:
+      - tetrio
     install:
       - adw-gtk3-theme
       - bat
