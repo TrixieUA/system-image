@@ -64,6 +64,7 @@ modules:
       - nvtop
       - qemu
       - rpmdevtools
+      - rpmrebuild
       - smartmontools
       - xeyes
       - zenmonitor3
