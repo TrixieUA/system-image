@@ -37,11 +37,7 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/shdwchn10/zenpower3/repo/fedora-%OS_VERSION%/shdwchn10-zenpower3-fedora-%OS_VERSION%.repo
     install:
       - ncdu
-      - zenpower3
       - zenmonitor3
-      - akmod-nvidia
-      - xorg-x11-drv-nvidia
-      - xorg-x11-drv-nvidia-cuda
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
