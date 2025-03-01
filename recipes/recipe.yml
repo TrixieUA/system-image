@@ -18,8 +18,11 @@ modules:
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
   - type: rpm-ostree
     repos:
+    - https://packages.microsoft.com/yumrepos/vscode/config.repo
     - https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos-lto/repo/fedora-%OS_VERSION%/bieszczaders-kernel-cachyos-lto-fedora-%OS_VERSION%.repo
     - https://copr.fedorainfracloud.org/coprs/shdwchn10/zenpower3/repo/fedora-%OS_VERSION%/shdwchn10-zenpower3-fedora-%OS_VERSION%.repo
+    keys:
+    - https://packages.microsoft.com/keys/microsoft.asc
     install:
     - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
     - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-%OS_VERSION%.noarch.rpm
@@ -35,6 +38,7 @@ modules:
       - kernel-modules-extra
   - type: rpm-ostree
     install:
+      - code
       - ncdu
       - zenmonitor3
     remove:
