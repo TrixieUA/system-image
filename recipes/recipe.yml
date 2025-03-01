@@ -23,6 +23,9 @@ modules:
     - https://packages.microsoft.com/yumrepos/vscode/config.repo
     - https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos-lto/repo/fedora-%OS_VERSION%/bieszczaders-kernel-cachyos-lto-fedora-%OS_VERSION%.repo
     - https://copr.fedorainfracloud.org/coprs/shdwchn10/zenpower3/repo/fedora-%OS_VERSION%/shdwchn10-zenpower3-fedora-%OS_VERSION%.repo
+    - https://copr.fedorainfracloud.org/coprs/trixieua/mutter-patched/repo/fedora-%OS_VERSION%/trixieua-mutter-patched-fedora-%OS_VERSION%.repo
+    - https://copr.fedorainfracloud.org/coprs/trixieua/morewaita-icon-theme/repo/fedora-%OS_VERSION%/trixieua-morewaita-icon-theme-fedora-%OS_VERSION%.repo
+    - https://copr.fedorainfracloud.org/coprs/codifryed/CoolerControl/repo/fedora-%OS_VERSION%/codifryed-CoolerControl-fedora-%OS_VERSION%.repo
     keys:
     - https://packages.microsoft.com/keys/microsoft.asc
     install:
@@ -42,14 +45,44 @@ modules:
       - kernel-modules-extra
   - type: rpm-ostree
     install:
+      - adw-gtk3-theme
+      - bat
+      - btop
+      - chntpw
+      - chromium
       - code
+      - coolercontrol
+      - distrobox
+      - fastfetch
+      - gamescope
+      - gnome-tweaks
+      - gparted
+      - htop
+      - mc
+      - morewaita-icon-theme
       - ncdu
+      - nvtop
+      - qemu
+      - rpmdevtools
+      - smartmontools
+      - xeyes
       - zenmonitor3
+      - zsh
+
+      
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       - firefox
       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+    replace:
+  - from-repo: https://copr.fedorainfracloud.org/coprs/trixieua/mutter-patched/repo/fedora-%OS_VERSION%/trixieua-mutter-patched-fedora-%OS_VERSION%.repo
+    packages:
+      - mutter
+      - mutter-common
+      - gdm
+      - gsettings-desktop-schemas
+      - xorg-x11-server-Xwayland
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
