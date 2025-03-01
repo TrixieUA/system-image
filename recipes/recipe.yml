@@ -81,6 +81,7 @@ modules:
           - mutter
           - mutter-common
           - gdm
+          - gnome-shell
           - gsettings-desktop-schemas
           - xorg-x11-server-Xwayland
 
