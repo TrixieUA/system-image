@@ -16,6 +16,8 @@ modules:
     files:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
+
+  # add repos
   - type: rpm-ostree
     repos:
     - https://packages.microsoft.com/yumrepos/vscode/config.repo
@@ -26,6 +28,8 @@ modules:
     install:
     - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
     - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-%OS_VERSION%.noarch.rpm
+
+  # add cachyos kernel
   - type: rpm-ostree
     install:
       - kernel-cachyos-lto
