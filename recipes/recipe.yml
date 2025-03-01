@@ -37,7 +37,7 @@ modules:
     install:
       - kernel-cachyos-lto
       - kernel-cachyos-lto-devel-matched
-      - kernel-headers-6.13.0-62.fc42.x86_64
+      - https://kojipkgs.fedoraproject.org//packages/kernel-headers/6.13.3/200.fc41/x86_64/kernel-headers-6.13.3-200.fc41.x86_64.rpm
     remove:
       - kernel-core
       - kernel
