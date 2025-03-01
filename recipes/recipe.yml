@@ -37,13 +37,14 @@ modules:
     install:
       - kernel-cachyos-lto
       - kernel-cachyos-lto-devel-matched
-      - https://kojipkgs.fedoraproject.org//packages/kernel-headers/6.13.3/200.fc41/x86_64/kernel-headers-6.13.3-200.fc41.x86_64.rpm
     remove:
       - kernel-core
       - kernel
       - kernel-modules
       - kernel-modules-core
       - kernel-modules-extra
+    replace:
+      - https://kojipkgs.fedoraproject.org//packages/kernel-headers/6.13.3/200.fc41/x86_64/kernel-headers-6.13.3-200.fc41.x86_64.rpm
   - type: rpm-ostree
     install:
       - adw-gtk3-theme
