@@ -27,6 +27,7 @@ modules:
     - https://copr.fedorainfracloud.org/coprs/trixieua/morewaita-icon-theme/repo/fedora-%OS_VERSION%/trixieua-morewaita-icon-theme-fedora-%OS_VERSION%.repo
     - https://copr.fedorainfracloud.org/coprs/trixieua/tetr.io/repo/fedora-%OS_VERSION%/trixieua-tetr.io-fedora-%OS_VERSION%.repo
     - https://copr.fedorainfracloud.org/coprs/codifryed/CoolerControl/repo/fedora-%OS_VERSION%/codifryed-CoolerControl-fedora-%OS_VERSION%.repo
+    - https://repo.librewolf.net/librewolf.repo
     keys:
     - https://packages.microsoft.com/keys/microsoft.asc
     install:
@@ -61,6 +62,7 @@ modules:
       - gnome-tweaks
       - gparted
       - htop
+      - librewolf
       - mc
       - morewaita-icon-theme
       - ncdu
