@@ -62,6 +62,7 @@ modules:
       - gnome-tweaks
       - gparted
       - htop
+      - keepassxc
       - librewolf
       - mc
       - morewaita-icon-theme
