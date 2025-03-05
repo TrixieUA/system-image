@@ -64,6 +64,7 @@ modules:
       - htop
       - keepassxc
       - librewolf
+      - libva-nvidia-driver 
       - mc
       - morewaita-icon-theme
       - ncdu
