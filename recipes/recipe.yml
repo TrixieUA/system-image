@@ -92,7 +92,6 @@ modules:
           - mutter-common
           - gdm
           - gnome-shell
-          - gsettings-desktop-schemas
           - xorg-x11-server-Xwayland
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
