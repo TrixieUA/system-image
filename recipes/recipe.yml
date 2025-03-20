@@ -16,6 +16,10 @@ modules:
     files:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
+  
+  - type: script
+    snippets:
+    - "sed -i '/^\[updates-testing\]/,/^\[/ {s/^enabled=0$/enabled=1/}' '/etc/yum.repos.d/fedora-updates-testing.repo'"
 
   # add repos
   - type: rpm-ostree
