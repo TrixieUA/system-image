@@ -19,7 +19,7 @@ modules:
   
   - type: script
     scripts:
-  - updates-testing.sh # Enable updates-testing
+      - updates-testing.sh # Enable updates-testing
 
   # add repos
   - type: rpm-ostree
