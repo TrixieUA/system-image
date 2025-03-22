@@ -78,6 +78,7 @@ modules:
       - rpmrebuild
       - smartmontools
       - tetrio
+      - virt-manager
       - xeyes
       - zenmonitor3
       - zsh
