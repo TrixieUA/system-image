@@ -70,6 +70,7 @@ modules:
       - librewolf
       - libva-nvidia-driver 
       - mc
+      - mock
       - morewaita-icon-theme
       - ncdu
       - nvtop
