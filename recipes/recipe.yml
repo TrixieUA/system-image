@@ -38,20 +38,12 @@ modules:
     - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
     - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-%OS_VERSION%.noarch.rpm
 
-  # add cachyos kernel
+
   - type: rpm-ostree
-    install:
-      - kernel-cachyos-lto
-      - kernel-cachyos-lto-devel-matched
-    remove:
-      - kernel-core
-      - kernel
-      - kernel-modules
-      - kernel-modules-core
-      - kernel-modules-extra
-  - type: rpm-ostree
+
     optfix:
       - tetrio
+
     install:
       - adw-gtk3-theme
       - bat
@@ -67,6 +59,8 @@ modules:
       - gparted
       - htop
       - keepassxc
+      - kernel-cachyos-lto
+      - kernel-cachyos-lto-devel-matched
       - librewolf
       - libva-nvidia-driver 
       - mc
@@ -84,12 +78,15 @@ modules:
       - zsh
       - https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v0.6.5.1/opentabletdriver-0.6.5.1-1.x86_64.rpm
 
-      
     remove:
-      # example: removing firefox (in favor of the flatpak)
-      # "firefox" is the main package, "firefox-langpacks" is a dependency
       - firefox
-      - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+      - firefox-langpacks
+      - kernel
+      - kernel-core
+      - kernel-modules
+      - kernel-modules-core
+      - kernel-modules-extra
+
     replace:
       - from-repo: https://copr.fedorainfracloud.org/coprs/trixieua/mutter-patched/repo/fedora-%OS_VERSION%/trixieua-mutter-patched-fedora-%OS_VERSION%.repo
         packages:
