@@ -31,6 +31,7 @@ modules:
     - https://copr.fedorainfracloud.org/coprs/trixieua/morewaita-icon-theme/repo/fedora-%OS_VERSION%/trixieua-morewaita-icon-theme-fedora-%OS_VERSION%.repo
     - https://copr.fedorainfracloud.org/coprs/trixieua/tetr.io/repo/fedora-%OS_VERSION%/trixieua-tetr.io-fedora-%OS_VERSION%.repo
     - https://copr.fedorainfracloud.org/coprs/codifryed/CoolerControl/repo/fedora-%OS_VERSION%/codifryed-CoolerControl-fedora-%OS_VERSION%.repo
+    - https://copr.fedorainfracloud.org/coprs/g3tchoo/prismlauncher/repo/fedora-%OS_VERSION%/g3tchoo-prismlauncher-fedora-%OS_VERSION%.repo
     - https://repo.librewolf.net/librewolf.repo
     keys:
     - https://packages.microsoft.com/keys/microsoft.asc
@@ -68,6 +69,7 @@ modules:
       - morewaita-icon-theme
       - ncdu
       - nvtop
+      - prismlauncher
       - qemu
       - rpmdevtools
       - rpmrebuild
