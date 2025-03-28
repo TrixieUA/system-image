@@ -107,7 +107,6 @@ modules:
           - mesa-libglapi
           - mesa-dri-drivers
           - mesa-libgbm
-          - mesa-demos
           - mesa-libEGL
           - mesa-libGL
           - mesa-vulkan-drivers
