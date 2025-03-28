@@ -102,6 +102,7 @@ modules:
 
     replace:
       - from-repo: https://copr.fedorainfracloud.org/coprs/trixieua/mesa-clang/repo/fedora-%OS_VERSION%/trixieua-mesa-clang-fedora-%OS_VERSION%.repo?arch=x86_64
+        packages:
           - mesa-filesystem
           - mesa-libglapi
           - mesa-dri-drivers
