@@ -90,6 +90,7 @@ modules:
       - kernel-modules-core
       - kernel-modules-extra
 
+  - type: rpm-ostree
     replace:
       - from-repo: https://copr.fedorainfracloud.org/coprs/trixieua/mutter-patched/repo/fedora-%OS_VERSION%/trixieua-mutter-patched-fedora-%OS_VERSION%.repo
         packages:
@@ -99,7 +100,8 @@ modules:
           - gnome-shell
           - gnome-shell-common
           - xorg-x11-server-Xwayland
-
+          
+  - type: rpm-ostree
     replace:
       - from-repo: https://copr.fedorainfracloud.org/coprs/trixieua/mesa-clang/repo/fedora-%OS_VERSION%/trixieua-mesa-clang-fedora-%OS_VERSION%.repo?arch=x86_64
         packages:
