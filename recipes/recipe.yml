@@ -104,16 +104,10 @@ modules:
       - from-repo: https://copr.fedorainfracloud.org/coprs/trixieua/mesa-clang/repo/fedora-%OS_VERSION%/trixieua-mesa-clang-fedora-%OS_VERSION%.repo?arch=x86_64
         packages:
           - mesa-filesystem
-          - mesa-libglapi
-          - mesa-dri-drivers
           - mesa-libgbm
+          - mesa-dri-drivers
           - mesa-libEGL
           - mesa-libGL
           - mesa-vulkan-drivers
-          - mesa-libxatracker
-          - mesa-vdpau-drivers
-          - mesa-libOSMesa
-          - mesa-libOpenCL
           - mesa-va-drivers
-
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
