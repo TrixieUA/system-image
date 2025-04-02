@@ -83,6 +83,7 @@ modules:
     remove:
       - firefox
       - firefox-langpacks
+      - gnome-classic-session
       - kernel
       - kernel-core
       - kernel-modules
