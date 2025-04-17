@@ -33,6 +33,8 @@ modules:
     - https://copr.fedorainfracloud.org/coprs/trixieua/mesa-clang/repo/fedora-%OS_VERSION%/trixieua-mesa-clang-fedora-%OS_VERSION%.repo?arch=x86_64
     - https://copr.fedorainfracloud.org/coprs/codifryed/CoolerControl/repo/fedora-%OS_VERSION%/codifryed-CoolerControl-fedora-%OS_VERSION%.repo
     - https://copr.fedorainfracloud.org/coprs/g3tchoo/prismlauncher/repo/fedora-%OS_VERSION%/g3tchoo-prismlauncher-fedora-%OS_VERSION%.repo
+    - https://copr.fedorainfracloud.org/coprs/lizardbyte/beta/repo/fedora-%OS_VERSION%/lizardbyte-beta-fedora-%OS_VERSION%.repo
+
     keys:
     - https://packages.microsoft.com/keys/microsoft.asc
     install:
@@ -74,6 +76,7 @@ modules:
       - rpmdevtools
       - rpmrebuild
       - smartmontools
+      - Sunshine
       - tetrio
       - xeyes
       - zenmonitor3
