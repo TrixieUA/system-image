@@ -68,6 +68,8 @@ modules:
       - mangohud
       - mc
       - mock
+      - mock-rpmfusion-free
+      - mock-rpmfusion-nonfree
       - morewaita-icon-theme
       - ncdu
       - nvtop
