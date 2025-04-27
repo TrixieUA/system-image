@@ -24,23 +24,23 @@ modules:
   # add repos
   - type: rpm-ostree
     repos:
-    - https://packages.microsoft.com/yumrepos/vscode/config.repo
-    - https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos-lto/repo/fedora-%OS_VERSION%/bieszczaders-kernel-cachyos-lto-fedora-%OS_VERSION%.repo
-    - https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos-addons/repo/fedora-42/bieszczaders-kernel-cachyos-addons-fedora-42.repo
-    - https://copr.fedorainfracloud.org/coprs/shdwchn10/zenpower3/repo/fedora-%OS_VERSION%/shdwchn10-zenpower3-fedora-%OS_VERSION%.repo
-    - https://copr.fedorainfracloud.org/coprs/trixieua/mutter-patched/repo/fedora-%OS_VERSION%/trixieua-mutter-patched-fedora-%OS_VERSION%.repo
-    - https://copr.fedorainfracloud.org/coprs/trixieua/morewaita-icon-theme/repo/fedora-%OS_VERSION%/trixieua-morewaita-icon-theme-fedora-%OS_VERSION%.repo
-    - https://copr.fedorainfracloud.org/coprs/trixieua/tetr.io/repo/fedora-%OS_VERSION%/trixieua-tetr.io-fedora-%OS_VERSION%.repo
-    - https://copr.fedorainfracloud.org/coprs/trixieua/mesa-clang/repo/fedora-%OS_VERSION%/trixieua-mesa-clang-fedora-%OS_VERSION%.repo?arch=x86_64
-    - https://copr.fedorainfracloud.org/coprs/codifryed/CoolerControl/repo/fedora-%OS_VERSION%/codifryed-CoolerControl-fedora-%OS_VERSION%.repo
-    - https://copr.fedorainfracloud.org/coprs/g3tchoo/prismlauncher/repo/fedora-%OS_VERSION%/g3tchoo-prismlauncher-fedora-%OS_VERSION%.repo
-    - https://copr.fedorainfracloud.org/coprs/lizardbyte/beta/repo/fedora-%OS_VERSION%/lizardbyte-beta-fedora-%OS_VERSION%.repo
+      - https://packages.microsoft.com/yumrepos/vscode/config.repo
+      - https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos-lto/repo/fedora-%OS_VERSION%/bieszczaders-kernel-cachyos-lto-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos-addons/repo/fedora-42/bieszczaders-kernel-cachyos-addons-fedora-42.repo
+      - https://copr.fedorainfracloud.org/coprs/shdwchn10/zenpower3/repo/fedora-%OS_VERSION%/shdwchn10-zenpower3-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/trixieua/mutter-patched/repo/fedora-%OS_VERSION%/trixieua-mutter-patched-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/trixieua/morewaita-icon-theme/repo/fedora-%OS_VERSION%/trixieua-morewaita-icon-theme-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/trixieua/tetr.io/repo/fedora-%OS_VERSION%/trixieua-tetr.io-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/trixieua/mesa-clang/repo/fedora-%OS_VERSION%/trixieua-mesa-clang-fedora-%OS_VERSION%.repo?arch=x86_64
+      - https://copr.fedorainfracloud.org/coprs/codifryed/CoolerControl/repo/fedora-%OS_VERSION%/codifryed-CoolerControl-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/g3tchoo/prismlauncher/repo/fedora-%OS_VERSION%/g3tchoo-prismlauncher-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/lizardbyte/beta/repo/fedora-%OS_VERSION%/lizardbyte-beta-fedora-%OS_VERSION%.repo
 
     keys:
-    - https://packages.microsoft.com/keys/microsoft.asc
+      - https://packages.microsoft.com/keys/microsoft.asc
     install:
-    - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
-    - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-%OS_VERSION%.noarch.rpm
+      - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
+      - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-%OS_VERSION%.noarch.rpm
 
 
   - type: rpm-ostree
