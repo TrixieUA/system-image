@@ -26,6 +26,7 @@ modules:
     repos:
     - https://packages.microsoft.com/yumrepos/vscode/config.repo
     - https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos-lto/repo/fedora-%OS_VERSION%/bieszczaders-kernel-cachyos-lto-fedora-%OS_VERSION%.repo
+    - https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos-addons/repo/fedora-42/bieszczaders-kernel-cachyos-addons-fedora-42.repo
     - https://copr.fedorainfracloud.org/coprs/shdwchn10/zenpower3/repo/fedora-%OS_VERSION%/shdwchn10-zenpower3-fedora-%OS_VERSION%.repo
     - https://copr.fedorainfracloud.org/coprs/trixieua/mutter-patched/repo/fedora-%OS_VERSION%/trixieua-mutter-patched-fedora-%OS_VERSION%.repo
     - https://copr.fedorainfracloud.org/coprs/trixieua/morewaita-icon-theme/repo/fedora-%OS_VERSION%/trixieua-morewaita-icon-theme-fedora-%OS_VERSION%.repo
@@ -77,6 +78,7 @@ modules:
       - qemu
       - rpmdevtools
       - rpmrebuild
+      - scx-scheds
       - smartmontools
       - sshfs
       - Sunshine
