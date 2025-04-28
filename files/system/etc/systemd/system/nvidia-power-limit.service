@@ -1,0 +1,11 @@
+[Unit]
+Description=Set Nvidia Power Limit
+After=multi-user.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/nvidia-smi -pl 240
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target
