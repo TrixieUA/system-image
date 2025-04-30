@@ -101,11 +101,11 @@ modules:
       - from-repo: https://copr.fedorainfracloud.org/coprs/trixieua/mutter-patched/repo/fedora-%OS_VERSION%/trixieua-mutter-patched-fedora-%OS_VERSION%.repo
         skip-unavailable: true
         packages:
-         - mutter
-         - mutter-common
-         - gdm
-         - gnome-shell
-         - gnome-shell-common
+          - mutter
+          - mutter-common
+          - gdm
+          - gnome-shell
+          - gnome-shell-common
           - xorg-x11-server-Xwayland
           
   - type: dnf
