@@ -24,65 +24,65 @@ modules:
   # add repos
   - type: dnf  
     repos:
-    files: 
-      - https://packages.microsoft.com/yumrepos/vscode/config.repo
-    copr:
-      - bieszczaders/kernel-cachyos-lto
-      - bieszczaders/kernel-cachyos-addons
-      - trixieua/mutter-patched
-      - trixieua/mesa-clang
-      - trixieua/moirewaita-icon-theme
-      - tirixeua/tetr.io
-      - shdwchn10/zenpower3
-      - codifryed/CoolerControl
-      - lizardbyte/beta
-    keys:
+      files: 
+        - https://packages.microsoft.com/yumrepos/vscode/config.repo
+      copr:
+        - bieszczaders/kernel-cachyos-lto
+        - bieszczaders/kernel-cachyos-addons
+        - trixieua/mutter-patched
+        - trixieua/mesa-clang
+        - trixieua/moirewaita-icon-theme
+        - tirixeua/tetr.io
+        - shdwchn10/zenpower3
+        - codifryed/CoolerControl
+        - lizardbyte/beta
+      keys:
         - https://packages.microsoft.com/keys/microsoft.asc
-    nonfree: rpmfusion
+      nonfree: rpmfusion
 
   - type: dnf 
     optfix:
       - tetrio
     install:
-    packages:
-      - adw-gtk3-theme
-      - bat
-      - btop
-      - chntpw
-      - chromium
-      - code
-      - coolercontrol
-      - distrobox
-      - fastfetch
-      - gamescope
-      - gnome-tweaks
-      - gparted
-      - htop
-      - keepassxc
-      - kernel-cachyos-lto
-      - kernel-cachyos-lto-devel-matched
-      - libva-nvidia-driver 
-      - mangohud
-      - mc
-      - mock
-      - mock-rpmfusion-free
-      - mock-rpmfusion-nonfree
-      - morewaita-icon-theme
-      - ncdu
-      - nvtop
-      - prismlauncher
-      - qemu
-      - rpmdevtools
-      - rpmrebuild
-      - scx-scheds
-      - smartmontools
-      - sshfs
-      - Sunshine
-      - tetrio
-      - xeyes
-      - zenmonitor3
-      - zsh
-      - https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v0.6.5.1/opentabletdriver-0.6.5.1-1.x86_64.rpm
+      packages:
+        - adw-gtk3-theme
+        - bat
+        - btop
+        - chntpw
+        - chromium
+        - code
+        - coolercontrol
+        - distrobox
+        - fastfetch
+        - gamescope
+        - gnome-tweaks
+        - gparted
+        - htop
+        - keepassxc
+        - kernel-cachyos-lto
+        - kernel-cachyos-lto-devel-matched
+        - libva-nvidia-driver 
+        - mangohud
+        - mc
+        - mock
+        - mock-rpmfusion-free
+        - mock-rpmfusion-nonfree
+        - morewaita-icon-theme
+        - ncdu
+        - nvtop
+        - prismlauncher
+        - qemu
+        - rpmdevtools
+        - rpmrebuild
+        - scx-scheds
+        - smartmontools
+        - sshfs
+        - Sunshine
+        - tetrio
+        - xeyes
+        - zenmonitor3
+        - zsh
+        - https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v0.6.5.1/opentabletdriver-0.6.5.1-1.x86_64.rpm
     remove:
       packages:
         - firefox
@@ -101,11 +101,11 @@ modules:
       - from-repo: https://copr.fedorainfracloud.org/coprs/trixieua/mutter-patched/repo/fedora-%OS_VERSION%/trixieua-mutter-patched-fedora-%OS_VERSION%.repo
         skip-unavailable: true
         packages:
-          - mutter
-          - mutter-common
-          - gdm
-          - gnome-shell
-          - gnome-shell-common
+         - mutter
+         - mutter-common
+         - gdm
+         - gnome-shell
+         - gnome-shell-common
           - xorg-x11-server-Xwayland
           
   - type: dnf
