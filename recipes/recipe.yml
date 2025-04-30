@@ -69,7 +69,6 @@ modules:
         - morewaita-icon-theme
         - ncdu
         - nvtop
-        - prismlauncher
         - qemu
         - rpmdevtools
         - rpmrebuild
