@@ -95,7 +95,7 @@ modules:
 
   - type: dnf
     replace:
-      - from-repo: https://copr.fedorainfracloud.org/coprs/trixieua/mutter-patched/repo/fedora-%OS_VERSION%/trixieua-mutter-patched-fedora-%OS_VERSION%.repo
+      - from-repo: copr:copr.fedorainfracloud.org:trixieua:mutter-patched
         skip-unavailable: true
         packages:
           - mutter
@@ -107,7 +107,7 @@ modules:
           
   - type: dnf
     replace:
-    - from-repo: https://copr.fedorainfracloud.org/coprs/trixieua/mesa-clang/repo/fedora-%OS_VERSION%/trixieua-mesa-clang-fedora-%OS_VERSION%.repo?arch=x86_64
+    - from-repo: copr:copr.fedorainfracloud.org:trixieua:mesa-clang
       skip-unavailable: true
       packages:
         - mesa-filesystem
