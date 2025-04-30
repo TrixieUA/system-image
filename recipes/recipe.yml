@@ -31,7 +31,7 @@ modules:
         - bieszczaders/kernel-cachyos-addons
         - trixieua/mutter-patched
         - trixieua/mesa-clang
-        - trixieua/moirewaita-icon-theme
+        - trixieua/morewaita-icon-theme 
         - tirixeua/tetr.io
         - shdwchn10/zenpower3
         - codifryed/CoolerControl
