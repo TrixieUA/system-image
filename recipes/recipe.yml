@@ -44,53 +44,55 @@ type: dnf
 optfix:
   - tetrio
 install:
-  - adw-gtk3-theme
-  - bat
-  - btop
-  - chntpw
-  - chromium
-  - code
-  - coolercontrol
-  - distrobox
-  - fastfetch
-  - gamescope
-  - gnome-tweaks
-  - gparted
-  - htop
-  - keepassxc
-  - kernel-cachyos-lto
-  - kernel-cachyos-lto-devel-matched
-  - libva-nvidia-driver 
-  - mangohud
-  - mc
-  - mock
-  - mock-rpmfusion-free
-  - mock-rpmfusion-nonfree
-  - morewaita-icon-theme
-  - ncdu
-  - nvtop
-  - prismlauncher
-  - qemu
-  - rpmdevtools
-  - rpmrebuild
-  - scx-scheds
-  - smartmontools
-  - sshfs
-  - Sunshine
-  - tetrio
-  - xeyes
-  - zenmonitor3
-  - zsh
-  - https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v0.6.5.1/opentabletdriver-0.6.5.1-1.x86_64.rpm
+  packages:
+    - adw-gtk3-theme
+    - bat
+    - btop
+    - chntpw
+    - chromium
+    - code
+    - coolercontrol
+    - distrobox
+    - fastfetch
+    - gamescope
+    - gnome-tweaks
+    - gparted
+    - htop
+    - keepassxc
+    - kernel-cachyos-lto
+    - kernel-cachyos-lto-devel-matched
+    - libva-nvidia-driver 
+    - mangohud
+    - mc
+    - mock
+    - mock-rpmfusion-free
+    - mock-rpmfusion-nonfree
+    - morewaita-icon-theme
+    - ncdu
+    - nvtop
+    - prismlauncher
+    - qemu
+    - rpmdevtools
+    - rpmrebuild
+    - scx-scheds
+    - smartmontools
+    - sshfs
+    - Sunshine
+    - tetrio
+    - xeyes
+    - zenmonitor3
+    - zsh
+    - https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v0.6.5.1/opentabletdriver-0.6.5.1-1.x86_64.rpm
 remove:
-  - firefox
-  - firefox-langpacks
-  - gnome-classic-session
-  - kernel
-  - kernel-core
-  - kernel-modules
-  - kernel-modules-core
-  - kernel-modules-extra
+  packages:
+    - firefox
+    - firefox-langpacks
+    - gnome-classic-session
+    - kernel
+    - kernel-core
+    - kernel-modules
+    - kernel-modules-core
+    - kernel-modules-extra
 
 
 
