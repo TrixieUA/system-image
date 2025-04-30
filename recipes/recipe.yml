@@ -32,7 +32,6 @@ modules:
         - trixieua/mutter-patched
         - trixieua/mesa-clang
         - trixieua/morewaita-icon-theme 
-        - tirixeua/tetr.io
         - shdwchn10/zenpower3
         - codifryed/CoolerControl
         - lizardbyte/beta
@@ -78,7 +77,6 @@ modules:
         - smartmontools
         - sshfs
         - Sunshine
-        - tetrio
         - xeyes
         - zenmonitor3
         - zsh
