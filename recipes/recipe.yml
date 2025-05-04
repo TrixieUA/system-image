@@ -40,8 +40,6 @@ modules:
       nonfree: rpmfusion
 
   - type: dnf 
-    optfix:
-      - tetrio
     install:
       packages:
         - adw-gtk3-theme
