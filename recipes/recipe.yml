@@ -74,6 +74,7 @@ modules:
         - smartmontools
         - sshfs
         - Sunshine
+        - uxplay
         - xeyes
         - zenmonitor3
         - zsh
