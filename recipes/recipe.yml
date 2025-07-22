@@ -50,6 +50,7 @@ modules:
         - coolercontrol
         - distrobox
         - fastfetch
+        - fatresize
         - gamescope
         - gnome-tweaks
         - gparted
@@ -67,6 +68,7 @@ modules:
         - ncdu
         - nvtop
         - qemu
+        - rclone
         - rpmdevtools
         - rpmrebuild
         - scx-scheds
