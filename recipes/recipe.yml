@@ -55,7 +55,6 @@ modules:
         - gnome-tweaks
         - gparted
         - htop
-        - keepassxc
         - kernel-cachyos-lto
         - kernel-cachyos-lto-devel-matched
         - libva-nvidia-driver 
