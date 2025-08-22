@@ -32,7 +32,6 @@ modules:
         - trixieua/mutter-patched
         - trixieua/mesa-clang
         - trixieua/morewaita-icon-theme 
-        - shdwchn10/zenpower3
         - codifryed/CoolerControl
         - lizardbyte/beta
       keys:
@@ -57,7 +56,6 @@ modules:
         - htop
         - kernel-cachyos-lto
         - kernel-cachyos-lto-devel-matched
-        - libva-nvidia-driver 
         - mangohud
         - mc
         - mock
@@ -76,7 +74,6 @@ modules:
         - Sunshine
         - uxplay
         - xeyes
-        - zenmonitor3
         - zsh
         - https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v0.6.5.1/opentabletdriver-0.6.5.1-1.x86_64.rpm
     remove:
