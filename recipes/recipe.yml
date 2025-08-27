@@ -28,7 +28,7 @@ modules:
         - https://packages.microsoft.com/yumrepos/vscode/config.repo
       copr:
         - bieszczaders/kernel-cachyos-addons
-        - bieszczaders/kernel-cachyos-addons
+        - bieszczaders/kernel-cachyos-lto
         - trixieua/mutter-patched
         - trixieua/mesa-clang
         - trixieua/morewaita-icon-theme 
