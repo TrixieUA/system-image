@@ -27,7 +27,6 @@ modules:
       files: 
         - https://packages.microsoft.com/yumrepos/vscode/config.repo
       copr:
-        - bieszczaders/kernel-cachyos-lto
         - bieszczaders/kernel-cachyos-addons
         - trixieua/mutter-patched
         - trixieua/mesa-clang
@@ -53,8 +52,6 @@ modules:
         - gnome-tweaks
         - gparted
         - htop
-        - kernel-cachyos-lto
-        - kernel-cachyos-lto-devel-matched
         - mangohud
         - mc
         - mock
@@ -79,12 +76,6 @@ modules:
         - firefox
         - firefox-langpacks
         - gnome-classic-session
-        - kernel
-        - kernel-core
-        - kernel-modules
-        - kernel-modules-core
-        - kernel-modules-extra
-
 
 
   - type: dnf
