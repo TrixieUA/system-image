@@ -82,11 +82,6 @@ modules:
       - from-repo: copr:copr.fedorainfracloud.org:trixieua:mutter-patched
         skip-unavailable: true
         packages:
-          - mutter
-          - mutter-common
-          - gdm
-          - gnome-shell
-          - gnome-shell-common
           - xorg-x11-server-Xwayland
           
   - type: dnf
