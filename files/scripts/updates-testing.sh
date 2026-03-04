@@ -5,5 +5,5 @@
 # builds actually ran successfully without any errors!
 set -oue pipefail
 
-dnf config-manager --enable updates-testing -y
-dnf update -y --refresh
+
+dnf update -y --refresh --enablerepo=updates-testing
