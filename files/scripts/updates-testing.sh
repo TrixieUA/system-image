@@ -6,4 +6,11 @@
 set -oue pipefail
 
 
-dnf update -y --refresh --enablerepo=updates-testing
+dnf update -y --refresh --enablerepo=updates-testing \
+--exclude="grub2-common" \
+--exclude="grub2-tools" \
+--exclude="grub2-tools-minimal" \
+--exclude="grub2-pc" \
+--exclude="grub2-pc-modules" \
+--exclude="grub2-efi-x64" \
+--exclude="grub2-efi-ia32"
