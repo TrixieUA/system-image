@@ -33,6 +33,7 @@ modules:
         - trixieua/mesa-clang
         - trixieua/morewaita-icon-theme 
         - codifryed/CoolerControl
+        - ilyaz/LACT
       keys:
         - https://packages.microsoft.com/keys/microsoft.asc
       nonfree: rpmfusion
@@ -53,6 +54,7 @@ modules:
         - gnome-tweaks
         - gparted
         - htop
+        - lact
         - mangohud
         - mc
         - mock
